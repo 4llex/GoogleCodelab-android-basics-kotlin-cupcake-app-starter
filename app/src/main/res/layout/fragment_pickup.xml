@@ -113,6 +113,7 @@
                 android:text="@string/cancel"
                 android:layout_marginEnd="@dimen/side_margin"
                 style="?attr/materialButtonOutlinedStyle"
+                android:onClick="@{() -> pickupFragment.cancelOrder()}"
                 app:layout_constraintTop_toTopOf="@id/next_button"
                 app:layout_constraintEnd_toStartOf="@id/next_button"
                 app:layout_constraintStart_toStartOf="parent"/>
